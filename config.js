@@ -25,7 +25,7 @@ window.LINKBIO_CONFIG = {
     {
       titulo: "Grupo VIP no WhatsApp",
       subtitulo: "Promoções e cupons exclusivos",
-      url: "https://chat.whatsapp.com/F6ZJbwVvyqWIYTbUOsxnWs", // ex.: "https://chat.whatsapp.com/SEU-CODIGO"
+      url: "https://chat.whatsapp.com/F6ZJbwVvyqWIYTbUOsxnWs", 
       icone: "whatsapp",
     },
     {
