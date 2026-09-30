@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Glow Mix Store • Links</title>
+  <meta name="description" content="Glow Mix Store — maquiagem, skincare e acessórios. Acesse a loja online, o grupo VIP no WhatsApp e conheça nossas influenciadoras." />
+  <meta name="theme-color" content="#ff3e8e" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Glow Mix Store" />
+  <meta property="og:description" content="Maquiagem, skincare e acessórios para realçar o seu brilho" />
+  <meta property="og:image" content="/assets/logo.png" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="blob b4"></span>
+    <span class="spark s1">✦</span><span class="spark s2">✦</span><span class="spark s3">✧</span><span class="spark s4">✦</span><span class="spark s5">✧</span>
+  </div>
+
+  <main class="card">
+    <button class="share" id="share" type="button" aria-label="Compartilhar página">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1Z"/></svg>
+    </button>
+
+    <header class="profile">
+      <div class="avatar-ring"><img id="logo" class="avatar" alt="Logo Glow Mix Store" width="160" height="160" /></div>
+      <h1 id="nome">Glow Mix Store</h1>
+      <a id="handle" class="handle" target="_blank" rel="noopener"></a>
+      <p id="bio" class="bio"></p>
+    </header>
+
+    <nav id="links" class="links" aria-label="Links principais"></nav>
+
+    <section class="influ" aria-labelledby="influ-title">
+      <div class="section-head">
+        <h2 id="influ-title"><span class="heart">♥</span> Nossas Influenciadoras</h2>
+        <p>Siga quem arrasa com Glow Mix</p>
+      </div>
+      <div id="influ-grid" class="influ-grid"></div>
+    </section>
+
+    <footer class="foot">
+      <span>© <span id="ano"></span> Glow Mix Store</span>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
