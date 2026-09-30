@@ -25,7 +25,7 @@ window.LINKBIO_CONFIG = {
     {
       titulo: "Grupo VIP no WhatsApp",
       subtitulo: "Promoções e cupons exclusivos",
-      url: "https://www.instagram.com/glowmixstore.br?stkn=MTZ0MWx6N21tMzRvOA%3D%3D", // ex.: "https://chat.whatsapp.com/SEU-CODIGO"
+      url: "https://chat.whatsapp.com/F6ZJbwVvyqWIYTbUOsxnWs", // ex.: "https://chat.whatsapp.com/SEU-CODIGO"
       icone: "whatsapp",
     },
     {
