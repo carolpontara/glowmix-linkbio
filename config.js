@@ -41,7 +41,7 @@ window.LINKBIO_CONFIG = {
   // "foto" é opcional (ex.: "assets/influenciadoras/maria.jpg").
   // "cupom" é opcional (ex.: "MARIA10").
   influenciadoras: [
-    { nome: "Lorena Aguiar", instagram: "loorenaaguiar", foto: "assets/influenciadoras/lorena.jpg", cupom: "" },
+    { nome: "Lorena Aguiar", instagram: "loorenaaguiar", foto: "lorena.jpg", cupom: "" },
     { nome: "", instagram: "", foto: "", cupom: "" },
     { nome: "", instagram: "", foto: "", cupom: "" },
     { nome: "", instagram: "", foto: "", cupom: "" },
